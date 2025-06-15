@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsha Events and Decors</title>
+  <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Harsha Events and Decors</h1>
+  </header>
+
+  <main class="container">
+    <section class="search-events">
+      <h2>Book your events </h2>
+
+      <div class="event-grid" role="list">
+        <article class="event-card" role="listitem">
+          <h3>Wedding Ceremony</h3>
+          <img src="images/marriage_Event.jpg" alt="Wedding event decoration" width="200" height="150">
+          <p><b>Date:</b> 23 May 2020</p>
+          <p><b>Seats Available:</b> 23</p>
+          <button type="button" aria-label="Book Wedding Event">Book Now</button>
+        </article>
+
+        <article class="event-card" role="listitem">
+          <h3>Birthday Bash</h3>
+          <img src="images/birthday_Event.jpg" alt="Colorful birthday celebration" width="200" height="150">
+          <p><b>Date:</b> 23 May 2020</p>
+          <p><b>Seats Available:</b> 23</p>
+          <button type="button" aria-label="Book Birthday Event">Book Now</button>
+        </article>
+
+        <article class="event-card sold-out" role="listitem" aria-disabled="true">
+          <h3>Traditional Wedding</h3>
+          <img src="images/marriage_Event.jpg" alt="Traditional wedding setup" width="200" height="150">
+          <p><b>Date:</b> 23 May 2020</p>
+          <p><b>Seats Available:</b> 0</p>
+          <button type="button" disabled aria-label="Sold Out">Sold Out</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Harsha Events and Decors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
